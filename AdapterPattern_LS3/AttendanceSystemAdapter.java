@@ -7,7 +7,6 @@ class AttendanceSystemAdapter implements SchoolManagementApp {
 
     @Override
     public void integrateSystem() {
-        // Translates integrateSystem() to markAttendance()
         attendanceSystem.markAttendance();
     }
 }

@@ -7,7 +7,6 @@ class LibrarySystemAdapter implements SchoolManagementApp {
 
     @Override
     public void integrateSystem() {
-        // Translates integrateSystem() to manageBooks()
         librarySystem.manageBooks();
     }
 }
